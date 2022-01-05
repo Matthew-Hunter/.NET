@@ -125,6 +125,8 @@ namespace Pezza.Common.Profiles
 
 Create a new Class Library Pezza.DataAccess and Pezza.DataAccess.Contracts (This will used for Dependency Injection and Unit Tests) <br/> ![](Assets/2020-09-11-10-06-58.png)
 
+Add Pezza.Common as a project reference to any projects that require it. <br/> ![](https://user-images.githubusercontent.com/97154281/148218682-67be8724-a76f-4690-b678-010335c02cb8.png)  
+
  For accessing the Database we will be using [Entity Framework Core](https://github.com/dotnet/efcore).
 
 **Nuget Packages Required**
